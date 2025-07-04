@@ -18,7 +18,7 @@ Escreva o seguinte código nas abas correspondentes. O código irá esperar o re
 ### Na aba **Begin Experiment**
 ```
 import serial
-ser = serial.Serial('COM4', 9600, timeout = 1)>
+ser = serial.Serial('COM4', 9600, timeout = 1)
 ```
 ### Na aba **Each Frame**
 ```
