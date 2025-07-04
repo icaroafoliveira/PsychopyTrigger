@@ -3,14 +3,17 @@ Passo-a-passo para o setup do trigger nos experimentos dentro do Psychopy.
 
 ## Passo 1) Utilizando Psychopy Builder
 Fig1 - Tela inicial do Psychopy Builder \
-![Psychopy Builder](https://github.com/icaroafoliveira/PsychopyTrigger/tela1.png=true)
-- Crie um texto informando o paciente/participante que o experimento irá iniciar em instantes. Não esqueça de deixar o texto com tempo inicial, mas sem tempo final.
-    Exemplo:"O experimento irá se iniciar em alguns instantes"
-- Em seguida crie um componente para código (CODE component) na aba Custom.
-  Fig2 - Code component
-## Passo 2) Dentro do componente 'CODE':
-Fig3
-Escreva o seguinte código nas abas correspondentes. O código, esperar o recebimento do sinal do scanner para iniciar o experimento.
+![Psychopy Builder](https://github.com/icaroafoliveira/PsychopyTrigger/blob/main/tela1.png)
+- Crie um texto informando o paciente/participante que o experimento irá iniciar em instantes. Não esqueça de deixar o texto com tempo inicial, mas sem tempo final. \
+    Exemplo:"O experimento irá se iniciar em alguns instantes" \
+- Em seguida crie um componente para código (CODE component) na aba Custom. \
+  Fig2 - Code component \
+![CODE COMPONENT](https://github.com/icaroafoliveira/PsychopyTrigger/blob/main/tela2(CODE_COMPONENT).png)
+
+## Passo 2) CODE PROPERTIES:
+Fig3 - Code Properties
+![Psychopy Code Properties](https://github.com/icaroafoliveira/PsychopyTrigger/blob/main/tela3.png)
+Escreva o seguinte código nas abas correspondentes. O código irá esperar o recebimento do sinal do scanner para iniciar o experimento.
 
 ### Na aba **Begin Experiment**
 ```
