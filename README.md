@@ -14,7 +14,7 @@ Crie um código em python para abrir a porta serial, e no momemto que a porta re
 
 ### Na aba **Begin Experiment**
 ```
-imnport serial
+import serial
 ser = serial.Serial('COM4', 9600, timeout = 1)>
 ```
 ### Na aba **Each Frame**
