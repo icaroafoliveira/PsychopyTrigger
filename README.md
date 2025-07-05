@@ -13,7 +13,9 @@ Fig1 - Tela inicial do Psychopy Builder \
 ## Passo 2) CODE PROPERTIES:
 Fig3 - Code Properties
 ![Psychopy Code Properties](https://github.com/icaroafoliveira/PsychopyTrigger/blob/main/tela3.png)
-Escreva o seguinte código nas abas correspondentes. O código irá esperar o recebimento do sinal do scanner para iniciar o experimento.
+
+Escreva o código abaixo nas abas correspondentes. O código irá esperar o recebimento do sinal do scanner para iniciar o experimento.\
+No meu caso, o scanner envia um sinal TTL (5V), e um arduino nano recebe e converte esse sinal. Na conversão do sinal, codifiquei o arduíno para reportar um 't'.
 
 ### Na aba **Begin Experiment**
 ```
